@@ -39,7 +39,8 @@
 .Main_Image {
     margin: 0;
     height: 525px;
-    width: 1519px;
+/*     width: 1519px; */
+    width: 100%;
     padding-bottom: 25px;
 }
 
