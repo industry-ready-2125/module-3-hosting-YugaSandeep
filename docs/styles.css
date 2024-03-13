@@ -9,12 +9,13 @@
     height: 80px;
     align-items: center;
     width: 100%;
+    /*  */
 }
 
 .Navigators {
     align-items: center;
-    padding-right: 50px;
-    width: 500px;
+    padding-right: 3%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
 }
@@ -37,25 +38,30 @@
 }
 
 .Main_Image {
+    background-image: url(assets/DmartImage-1.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 0;
     height: 525px;
-/*     width: 1519px; */
+    /* width: 1519px; */
     width: 100%;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .Container {
-/*     width: 1200px; */
+    /* width: 1200px; */
     width: 78%;
     margin: auto;
     display: flex;
     /* text-align: center; */
+    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
 .ContainerHeading {
-    width: 1150px;
+    /* width: 1150px; */
+    width: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,7 +78,10 @@
 
 .One, .Two, .Three {
     padding-top: 10px;
+    display: flex;
+    gap: 3%;
 }
+
 
 h2 {
     margin-top: 30px;
@@ -169,8 +178,8 @@ Footer img {
 
 .GridContainer img {
     border-radius: 15px;
-    width: 255px;
-    height: 250px;
+    width: 95%;
+    height: 80%;
 }
 
 .GridContainer h4 {
@@ -180,19 +189,26 @@ Footer img {
     margin-bottom: 10px;
 }
 
+.Container1 {
+    width: 65%;
+}
 
 .ContainerBody2  p {
     /* font-size: 0.9rem;
     font-weight: no; */
     width: 100%;
+    margin: auto;
     text-align: justify;
-    font-size: 0.875rem;
+    font-size: 0.9rem;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     font-weight: 400;
-    line-height: 1.43;
-    /* padding: 10px; */
+    line-height: 1.8;
+    /* margin-bottom: 5%; */
 }
 
+.ContainerBody2 {
+    margin-bottom: 2%;
+}
 
 /* .ContainerBody {
     margin-bottom: 20px;
@@ -205,6 +221,9 @@ Footer img {
 
 td p {
     margin-top: 14px;
+    /* padding: 2%; */
+    padding: 2% 0;
+    
 }
 
 .ContainerBody2 .AboutTable, .ContainerBody2 td{
